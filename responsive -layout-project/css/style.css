@@ -1,0 +1,279 @@
+
+header {
+    background: linear-gradient(grey, white);
+}
+
+h1, h2, h3 h4 {
+    color: #000085;
+    text-transform: capitalize;
+}
+
+h1 {
+    
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+ a:hover {
+    color: red;
+ }
+
+h2 {
+    text-align: center;
+    border-top: solid gray;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+h3{
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px;
+    width: 50%;
+    float: left;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+
+.main-nav li{
+    display: block;
+    font: 1.5em bold;
+    text-align: center;
+    text-transform: capitalize;
+    border: solid black;
+    border-spacing: 5px;
+    background: blanchedalmond;
+    margin-right: 30px;
+    padding: 10px;
+     margin-top: 5px;
+}
+.first-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+    width: 200px;
+}
+
+.qoute {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+
+}
+
+.about-page {
+    font-size: 1.5rem;
+ margin-left: 30px;
+ margin-right: 30px;
+}
+
+.subject {
+    font: 2em bold;
+    text-transform: capitalize;
+
+}
+
+.page-one {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-pic {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info li {
+    display: block;
+    text-align: center;
+}
+
+
+  
+
+.gone {
+    border-top: solid grey;
+}
+
+.gone li {
+    display: none;
+}
+
+.end-color {
+   
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.last {
+    font-family: 'Comfortaa', cursive;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .gone li {
+   display: none;
+  }
+
+
+
+
+
+.top {
+    padding-top: 10px;
+  
+    float: right;
+    font-size: 25px;
+}
+
+
+    @media (min-width: 768px) {
+
+        h1 {
+            font-size: 40px;
+            padding: 18px;
+        }
+
+        ul {
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        h4 {
+          
+            float: left;
+         
+         
+        }
+
+       
+        .main-nav li {
+            display: inline-block;
+            text-align: center;
+            background: none;
+            border: none;
+        }
+
+        .first-pic {
+            float: right;
+            width: 30%;
+            margin-right: 45px;
+        }
+
+        .qoute {
+           width: 60%;
+           padding-top: 10%;
+           padding-left: 30px;
+           text-align: center;
+        }
+        .page-one {
+            width: 90%;
+        }
+
+        .about-page {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .col-1 {
+            float: left;
+            width: 50%;
+        }
+
+        .col-2 {
+            float: right;
+            width: 50%;
+        }
+
+        .col-3 {
+            float: right;
+            width: 50%;
+        }
+        .gone li {
+        margin-top: 5%;
+        text-transform: capitalize;
+        padding-left: 2%;;
+        font-size: 1.5rem;
+        display: inline-block;
+        text-align: right;
+        }
+      .top {
+         display: none;
+      }
+
+  
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+
+        }
+    
+
+    @media (min-width: 1024px) {
+        
+        #top {
+            margin: 0;
+            float: left;
+            width: 50%;
+        }
+
+        .top {
+            display: none;
+        }
+
+        .main-nav li {
+            float: right;
+            margin-top: 20px;
+        }
+       
+        .col-1 {
+            float: left;
+            width: 33.33%;
+        }
+
+        .col-2 {
+            float: right;
+            width: 33.33%;
+        }
+
+        .col-3 {
+            float: right;
+            width: 33.33%;
+        }
+
+        
+    }
