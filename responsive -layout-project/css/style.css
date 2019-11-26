@@ -45,9 +45,11 @@ h3{
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 25px;
     width: 50%;
     float: left;
+    width: 50%;
+    margin: 0;
 }
 
 p {
@@ -112,7 +114,9 @@ footer {
 
 .skills-pic {
     display: block;
-    width: 400px;
+    width: 100%;
+    max-width: 720px;
+    min-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -126,7 +130,7 @@ footer {
   
 
 .gone {
-    border-top: solid grey;
+  display: none;
 }
 
 .gone li {
@@ -152,11 +156,7 @@ footer {
   }
 
 
-  .gone li {
-   display: none;
-  }
-
-
+  
 
 
 
@@ -165,6 +165,8 @@ footer {
     padding-bottom: 15px;
     float: right;
     font-size: 25px;
+    margin: 0;
+    width: 50%;
 }
 
 
@@ -185,7 +187,9 @@ footer {
         }
 
         h4 {
-            float: left;
+            display: inline-block;
+            width: 40%;
+            font-size: 2em;
         }
 
        
@@ -222,22 +226,31 @@ footer {
         .col-1 {
             float: left;
             width: 50%;
+            min-height: 458px;
         }
 
         .col-2 {
             float: right;
             width: 50%;
+            min-height: 458px;
         }
 
         .col-3 {
             float: right;
             width: 50%;
+            min-height: 458px;
         }
+        .gone {
+            display: inline-block;
+            margin: 0%;
+            
+        }
+
         .gone li {
-        margin-top: 5%;
+    
         text-transform: capitalize;
-        padding-left: 2%;
-        font-size: 1.5rem;
+        padding: 3px;
+        font-size: 1.3rem;
         display: inline-block;
         text-align: right;
         }
@@ -253,6 +266,13 @@ footer {
 
       .info li {
           padding: 5px;
+      }
+
+      .end-nav {
+          width: 60%;
+          margin: 0%;
+          float: right;
+          text-align: center;
       }
 
   
@@ -303,10 +323,10 @@ footer {
         }
 
         h4 {
-            float: left;
-            width: 50%;
+            font-size: 2em;
+            width: 40%;
             margin: 0;
-            padding-top: .8em;
+        
         }
 
         .info {
@@ -315,12 +335,18 @@ footer {
         }
 
         .gone {
-            float: right;
-            width: 50%;
-            margin: 0%;
-            padding-left: 0;
-            padding-bottom: 2em;
-            border: none;
+            padding: 0;
+            width: 60%;
+    
         }
 
+        .gone li {
+            font-size: 1.5em;
+            margin: 0%;
+        }
+
+        .end-nav {
+            display: inline-block;
+            text-align: right;
+        }
     }
